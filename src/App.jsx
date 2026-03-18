@@ -141,7 +141,7 @@ function BookCard({ title, author, pitch, description, image, goodreadsurl }) {
       {pitch && <p className="book-pitch">{pitch}</p>}
       <p className="book-description">{description}</p>
       <a href={goodreadsurl} target="_blank" rel="noreferrer" className="goodreads-btn">
-        <img src="/goodreads.svg" alt="View on Goodreads" />
+        <img src={`${import.meta.env.BASE_URL}goodreads.svg`} alt="View on Goodreads" />
       </a>
     </div>
   );
