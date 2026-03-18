@@ -1,0 +1,112 @@
+.app {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 0 16px;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.page-title {
+  text-align: center;
+  font-family: "Monoton", sans-serif;
+}
+
+.book-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 30px;
+  font-family: "Sono", monospace;
+}
+
+.book-top {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 12px;
+  justify-content: center;
+}
+
+.book-image {
+  width: 80px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.book-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+}
+
+.book-title {
+  margin: 0 0 4px 0;
+}
+
+.book-author {
+  margin: 0;
+  font-style: italic;
+  color: white;
+  font-weight: normal;
+}
+
+.book-pitch {
+  font-family: "Oooh Baby", cursive;
+  font-size: 26px;
+  color: white;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.book-description {
+  color: white;
+  line-height: 1.5;
+  white-space: pre-line;
+}
+
+.goodreads-btn {
+  display: block;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.goodreads-btn img {
+  width: 32px;
+  height: 32px;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.goodreads-btn img:hover {
+  opacity: 1;
+}
+
+@media (max-width: 600px) {
+  .app {
+    max-width: 95%;
+  }
+
+  .book-info {
+    width: 200px;
+  }
+  .book-title {
+    font-size: 18px;
+  }
+  .book-author {
+    font-size: 16px;
+  }
+  .book-pitch {
+    font-size: 18px;
+  }
+  .book-description {
+    font-size: 14px;
+  }
+}
