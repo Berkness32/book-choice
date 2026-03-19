@@ -8,7 +8,7 @@
 body {
   display: flex;
   justify-content: center;
-  background-color: #292929;
+  background-color: #1F1F1F;
 }
 
 .page-title {
@@ -51,6 +51,7 @@ body {
 
 .book-title {
   margin: 0 0 4px 0;
+  color: white;
 }
 
 .book-author {
