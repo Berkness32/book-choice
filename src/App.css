@@ -28,6 +28,7 @@ body {
   display: flex;
   flex-direction: row;
   gap: 16px;
+  color: white;
   align-items: center;
   margin-bottom: 12px;
   justify-content: center;
